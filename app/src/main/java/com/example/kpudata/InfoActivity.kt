@@ -1,4 +1,6 @@
 package com.example.kpudata
 
-class InfoActivity {
+import androidx.appcompat.app.AppCompatActivity
+
+class InfoActivity : AppCompatActivity() {
 }

@@ -15,7 +15,8 @@
         android:text="@string/main_title"
         android:textSize="34sp"
         android:textAlignment="center"
-        android:paddingTop="100dp"/>
+        android:paddingTop="100dp"
+        android:paddingBottom="50dp"/>
 
     <ListView
         android:id="@+id/menuListView"

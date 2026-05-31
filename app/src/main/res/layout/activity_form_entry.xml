@@ -89,6 +89,7 @@
                 android:id="@+id/btnCekLokasi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue"
                 android:text="@string/location_button_form" />
         </LinearLayout>
 
@@ -119,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/save_button"
-            android:backgroundTint="#4A90E2"
+            android:backgroundTint="@color/blue"
             android:textColor="#FFFFFF" />
 
     </LinearLayout>

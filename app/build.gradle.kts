@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -44,4 +45,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("com.google.android.gms:play-services-location:21.2.0")
+    val roomVersion = "2.7.0-alpha11" // Or the latest stable version
+    implementation("androidx.room:room-runtime:$roomVersion")
+    ksp("androidx.room:room-compiler:$roomVersion")
+//    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+//    ksp("androidx.room:room-compiler:2.5.0")
 }
