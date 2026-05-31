@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">KPU Data</string>
+    <string name="main_title">KPU</string>
+    <string name="info_button">Informasi</string>
+    <string name="form_button">Form Entry</string>
+    <string name="show_button">Lihat Data</string>
+    <string name="exit_button">Keluar</string>
+    <string name="nik_form">NIK</string>
+    <string name="nama_form">Nama Lengkap</string>
+    <string name="phone_form">Nomor Handphone</string>
+    <string name="gender_form">Jenis Kelamin</string>
+    <string name="guy_gender_form">Laki-laki</string>
+    <string name="girl_gender_form">Perempuan</string>
+    <string name="date_form">Tangga Pendataan</string>
+    <string name="location_form">Lokasi/Alamat</string>
+    <string name="location_button_form">Cek Lokasi</string>
+    <string name="image_form">Gambar</string>
+    <string name="save_button">Simpan</string>
 </resources>
